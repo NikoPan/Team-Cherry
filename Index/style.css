@@ -1,0 +1,112 @@
+body {
+    background-color: #234465;
+}
+@font-face {
+    font-family: 'Star wars outline';
+    src: url('../Resources/font/SF Distant Galaxy Outline Italic.ttf');
+}
+@font-face {
+    font-family: 'Star wars';
+    src: url('../Resources/font/SF Distant Galaxy Alternate Italic.ttf');
+}
+#wrapper {
+    margin: 0 auto;
+    width: 1024px;
+    height: 567px;
+    background: url('../Resources/index-background-opacity.jpg') no-repeat;
+    padding-top: 5px;
+}
+#wrapper > header {
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
+    background-color: rgba( 35, 68, 101, 0.5 );
+    margin: 0 auto;
+    width: 1014px;
+    height: 100px;
+}
+#wrapper > main {
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
+    background-color: rgba( 35, 68, 101, 0.5 );
+    margin: 8px 5px;
+    width: 1014px;
+    height: 365px;
+}
+#wrapper > footer {
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
+    background-color: rgba( 35, 68, 101, 0.5 );
+    margin: 0 auto;
+    width: 1014px;
+    height: 75px;
+}
+#wrapper > header > div > img {
+    width: 283px;
+    height: 55px;
+}
+
+#wrapper > header::after {
+    display: block;
+    content: "";
+    zoom: 1;
+    clear: both;
+}
+#wrapper > header > div {
+    float: left;
+    margin: 20px 0 0 20px;
+}
+#wrapper > header > nav {
+    float: right;
+    margin-top: 60px;
+
+}
+#wrapper > header > nav > ul > li{
+    font-family: 'Star wars outline', 'Tahoma', sans-serif;
+    margin-left: 10px;
+    font-size: 18px;
+    display: inline-block;
+    padding: 5px;
+}
+#wrapper > header > nav > ul > li:hover {
+    /*transition: 1s;*/
+    background-color: #0F1D2A;
+    font-family: 'Star wars', 'Tahoma', sans-serif;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+}
+#wrapper > header > nav > ul > li > ul {
+    display: none;
+    padding: 5px;
+
+}
+#wrapper > header > nav > ul > li:hover > ul {
+    display: block;
+    background-color: #0F1D2A;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+    font-family: 'Star wars', 'Tahoma', sans-serif;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: #dddddd;
+}
+nav>ul>li>ul {
+    position: absolute;
+    display: block;
+    margin-left: -5px;
+}
+nav>ul>li>ul > li{
+    width: 118px;
+    padding: 2px;
+    font-family: 'Star wars outline', 'Tahoma', sans-serif;
+}
+#wrapper > header > nav > ul > li > ul > li:hover {
+    background-color: rgb(35, 76, 109);
+    border-radius: 5px;
+    transition: 1s;
+    padding: 2px;
+    font-family: 'Star wars', 'Tahoma', sans-serif;
+}
