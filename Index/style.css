@@ -9,10 +9,13 @@ body {
     font-family: 'Star wars';
     src: url('../Resources/font/SF Distant Galaxy Alternate Italic.ttf');
 }
+.container{
+    max-width:980px;
+}
 #wrapper {
-    margin: 0 auto;
-    width: 1024px;
-    height: 567px;
+    /*margin: 0 auto;*/
+    /*width: 1024px;*/
+    height: 100%;
     background: url('../Resources/index-background-opacity.jpg') no-repeat;
     padding-top: 5px;
 }
@@ -21,15 +24,16 @@ body {
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
     background-color: rgba( 35, 68, 101, 0.5 );
     margin: 0 auto;
-    width: 1014px;
+    width: 100%;
     height: 100px;
+    padding:20px;
 }
 #wrapper > main {
     border-radius: 10px;
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
     background-color: rgba( 35, 68, 101, 0.5 );
     margin: 8px 5px;
-    width: 1014px;
+    width: 100%;
     height: 365px;
 }
 #wrapper > footer {
@@ -37,8 +41,11 @@ body {
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
     background-color: rgba( 35, 68, 101, 0.5 );
     margin: 0 auto;
-    width: 1014px;
+    width: 100%;
     height: 75px;
+}
+#wrapper > header > .col-md-4{
+    /*padding:20px;*/
 }
 #wrapper > header > div > img {
     width: 283px;
@@ -52,17 +59,18 @@ body {
     clear: both;
 }
 #wrapper > header > div {
-    float: left;
-    margin: 20px 0 0 20px;
+
+    /*float: left;              commented, because of bootstrap
+    margin: 20px 0 0 20px;*/
 }
 #wrapper > header > nav {
-    float: right;
-    margin-top: 60px;
-
+    /*float: right;
+    margin-top: 60px;*/
+    padding:20px;
 }
 #wrapper > header > nav > ul > li{
     font-family: 'Star wars outline', 'Tahoma', sans-serif;
-    margin-left: 10px;
+    /*margin-left: 10px;*/
     font-size: 18px;
     display: inline-block;
     padding: 5px;
