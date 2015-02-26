@@ -71,7 +71,7 @@ body {
 #wrapper > header > nav > ul > li{
     font-family: 'Star wars outline', 'Tahoma', sans-serif;
     /*margin-left: 10px;*/
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
     padding: 5px;
 }
