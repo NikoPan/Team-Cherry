@@ -55,12 +55,23 @@ body {
 
 
 #wrapper > header > nav > ul > li{
+<<<<<<< HEAD:version/Index/style.css
     margin-left: 10px;
     font-size: 18px;
+=======
+    font-family: 'Star wars outline', 'Tahoma', sans-serif;
+    /*margin-left: 10px;*/
+    font-size: 16px;
+>>>>>>> 378fdc4bae9f53013ca7f23d37500a41b98faca1:Index/style.css
     display: inline-block;
     padding: 5px;
 }
 #wrapper > header > nav > ul > li:hover {
+<<<<<<< HEAD:version/Index/style.css
+=======
+    /*transition: 1s;*/
+    z-index:1;
+>>>>>>> 378fdc4bae9f53013ca7f23d37500a41b98faca1:Index/style.css
     background-color: #0F1D2A;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
