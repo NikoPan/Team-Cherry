@@ -1,84 +1,67 @@
 body {
+    font-family: "Tahoma", "Open Sans", Arial, sans-serif;
     background-color: #234465;
 }
-@font-face {
-    font-family: 'Star wars outline';
-    src: url('../Resources/font/SF Distant Galaxy Outline Italic.ttf');
-}
-@font-face {
-    font-family: 'Star wars';
-    src: url('../Resources/font/SF Distant Galaxy Alternate Italic.ttf');
-}
-.container{
-    max-width:980px;
-}
 #wrapper {
-    /*margin: 0 auto;*/
-    /*width: 1024px;*/
-    height: 100%;
-    background: url('../Resources/index-background-opacity.jpg') no-repeat;
-    padding-top: 5px;
+    background: url('../Resources/index-background-opacity.jpg') no-repeat fixed;
+    background-size: 97%;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 97%;
+    padding: 10px 0;
 }
 #wrapper > header {
     border-radius: 10px;
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
     background-color: rgba( 35, 68, 101, 0.5 );
     margin: 0 auto;
-    width: 100%;
-    height: 100px;
-    padding:20px;
+    width: 97%;
 }
 #wrapper > main {
     border-radius: 10px;
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
     background-color: rgba( 35, 68, 101, 0.5 );
-    margin: 8px 5px;
-    width: 100%;
-    height: 365px;
+    width: 97%;
+    margin: 10px auto;
 }
 #wrapper > footer {
     border-radius: 10px;
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
     background-color: rgba( 35, 68, 101, 0.5 );
     margin: 0 auto;
-    width: 100%;
-    height: 75px;
-}
-#wrapper > header > .col-md-4{
-    /*padding:20px;*/
-}
-#wrapper > header > div > img {
-    width: 283px;
-    height: 55px;
+    width: 97%;
 }
 
+#wrapper > header > div {
+    width: 30%;
+    float: left;
+}
+
+#wrapper > header > div > img {
+    margin: 3px 10px;
+    width: 97%;
+}
+#wrapper > header > nav {
+    width: 67%;
+    float: right;
+    margin-top: 37px;
+}
 #wrapper > header::after {
     display: block;
     content: "";
     zoom: 1;
     clear: both;
 }
-#wrapper > header > div {
 
-    /*float: left;              commented, because of bootstrap
-    margin: 20px 0 0 20px;*/
-}
-#wrapper > header > nav {
-    /*float: right;
-    margin-top: 60px;*/
-    padding:20px;
-}
+
 #wrapper > header > nav > ul > li{
-    font-family: 'Star wars outline', 'Tahoma', sans-serif;
-    /*margin-left: 10px;*/
+    margin-left: 10px;
     font-size: 18px;
     display: inline-block;
     padding: 5px;
 }
 #wrapper > header > nav > ul > li:hover {
-    /*transition: 1s;*/
     background-color: #0F1D2A;
-    font-family: 'Star wars', 'Tahoma', sans-serif;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
     padding: 5px;
@@ -93,10 +76,17 @@ body {
     background-color: #0F1D2A;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
     padding: 5px;
-    font-family: 'Star wars', 'Tahoma', sans-serif;
 }
-
+#wrapper > header > nav > ul > li:hover > ul > li {
+    padding: 2px;
+}
+#wrapper > header > nav > ul > li:hover > ul > li:hover {
+    background-color: rgb(35, 76, 109);
+    border-radius: 5px;
+    padding: 2px;
+}
 a, a:visited {
     text-decoration: none;
     color: #dddddd;
@@ -109,12 +99,5 @@ nav>ul>li>ul {
 nav>ul>li>ul > li{
     width: 118px;
     padding: 2px;
-    font-family: 'Star wars outline', 'Tahoma', sans-serif;
-}
-#wrapper > header > nav > ul > li > ul > li:hover {
-    background-color: rgb(35, 76, 109);
-    border-radius: 5px;
-    transition: 1s;
-    padding: 2px;
-    font-family: 'Star wars', 'Tahoma', sans-serif;
+
 }
