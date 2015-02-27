@@ -1,0 +1,103 @@
+body {
+    font-family: "Tahoma", "Open Sans", Arial, sans-serif;
+    background-color: #234465;
+}
+#wrapper {
+    background: url('../Resources/index-background-opacity.jpg') no-repeat fixed;
+    background-size: 97%;
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 97%;
+    padding: 10px 0;
+}
+#wrapper > header {
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
+    background-color: rgba( 35, 68, 101, 0.5 );
+    margin: 0 auto;
+    width: 97%;
+}
+#wrapper > main {
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
+    background-color: rgba( 35, 68, 101, 0.5 );
+    width: 97%;
+    margin: 10px auto;
+}
+#wrapper > footer {
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
+    background-color: rgba( 35, 68, 101, 0.5 );
+    margin: 0 auto;
+    width: 97%;
+}
+
+#wrapper > header > div {
+    width: 30%;
+    float: left;
+}
+
+#wrapper > header > div > img {
+    margin: 3px 10px;
+    width: 97%;
+}
+#wrapper > header > nav {
+    width: 67%;
+    float: right;
+    margin-top: 37px;
+}
+#wrapper > header::after {
+    display: block;
+    content: "";
+    zoom: 1;
+    clear: both;
+}
+
+
+#wrapper > header > nav > ul > li{
+    margin-left: 10px;
+    font-size: 18px;
+    display: inline-block;
+    padding: 5px;
+}
+#wrapper > header > nav > ul > li:hover {
+    background-color: #0F1D2A;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 5px;
+}
+#wrapper > header > nav > ul > li > ul {
+    display: none;
+    padding: 5px;
+
+}
+#wrapper > header > nav > ul > li:hover > ul {
+    display: block;
+    background-color: #0F1D2A;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+}
+#wrapper > header > nav > ul > li:hover > ul > li {
+    padding: 2px;
+}
+#wrapper > header > nav > ul > li:hover > ul > li:hover {
+    background-color: rgb(35, 76, 109);
+    border-radius: 5px;
+    padding: 2px;
+}
+a, a:visited {
+    text-decoration: none;
+    color: #dddddd;
+}
+nav>ul>li>ul {
+    position: absolute;
+    display: block;
+    margin-left: -5px;
+}
+nav>ul>li>ul > li{
+    width: 118px;
+    padding: 2px;
+
+}
