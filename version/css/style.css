@@ -8,7 +8,7 @@ body {
     background-size: 97%;
     margin: 0 auto;
     max-width: 1024px;
-    height: auto;
+    width: 97%;
     padding: 10px 0;
 }
 
@@ -22,29 +22,10 @@ body {
 
 #wrapper > main {
     border-radius: 10px;
-    background-repeat: no-repeat;
     box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
-    /*background-color: rgba( 35, 68, 101, 0.5 );*/
+    background-color: rgba(35, 68, 101, 0.5);
     width: 97%;
-    margin: 10px;
-}
-
-/******Edit******/
-
-#small-logo {
-    display: none;
-}
-
-@media only screen and (max-width: 520px) {
-    #main-logo {
-        display: none;
-    }
-
-    #small-logo {
-        display: block;
-        margin: 0;
-    }
-
+    margin: 10px auto;
 }
 
 #wrapper > footer {
@@ -79,16 +60,19 @@ body {
 }
 
 #wrapper > header > nav > ul > li {
+
     margin-left: 10px;
 
     font-family: 'Star wars outline', 'Tahoma', sans-serif;
-    /*margin-left: 10px;*/
+
     font-size: 16px;
+
     display: inline-block;
     padding: 5px;
 }
 
 #wrapper > header > nav > ul > li:hover {
+
     /*transition: 1s;*/
     z-index: 1;
     background-color: #0F1D2A;
@@ -122,7 +106,7 @@ body {
     padding: 2px;
 }
 
-p, h2, h3, a, a:visited {
+a, a:visited {
     text-decoration: none;
     color: #dddddd;
 }
