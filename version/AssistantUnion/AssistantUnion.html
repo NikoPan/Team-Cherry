@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head lang="en">
     <link rel="stylesheet" href="../Index/reset.css"/>
@@ -11,19 +11,26 @@
 <div id="wrapper">
     <header>
         <div>
-            <img src="../Resources/Softwars-Logo.png" alt="SoftWars Uni Logo"/>
-        </div>
+            <a href="../Index/index.html">
+                <img id="main-logo" src="../Resources/Softwars-Logo-cherry.png" alt="SoftWars Uni Logo"/>
+                <img id="small-logo" src="../Resources/small-logo-cherry.png" alt="SoftWars Uni Logo"/>
+            </a>        </div>
         <nav>
             <ul>
                 <li>
-                    <a href="../Index/index.html">
+                    <a href="../Academy/academy.html">
                         АКАДЕМИЯТА
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        ОБУЧЕНИЕТО
+                    <a href="../Education/education.html">
+                        ОБУЧЕНИЕ
                     </a>
+                    <ul>
+                        <li><a href="../Education/education.html">Силата</a></li>
+                        <li><a href="../Education/education.html">Учебен план</a></li>
+                        <li><a href="../Education/education.html">Джедаите</a></li>
+                    </ul>
                 </li>
                 <li>
                     <a href="#">
@@ -49,12 +56,12 @@
                 </li>
                 <li>
                     <a href="#">
-                        КОНТАКТИ
+                        МИСИИ
                     </a>
                 </li>
                 <li>
                     <a href="#">
-                        ОТБОР ЧЕРЕШКА
+                        КОНТАКТИ
                     </a>
                 </li>
             </ul>
@@ -64,19 +71,19 @@
         <aside>
             <nav>
                 <ul>
-                    <li id="1">
+                    <li>
                         <a href="#Kaskata">ВОЖДА НА ЕУОКИТА</a>
                     </li>
-                    <li id="2">
+                    <li>
                         <a href="#Gandalf">ДЖИ ТРИ СИПИ О</a>
                     </li>
-                    <li id="3">
+                    <li>
                         <a href="#Rosi">РОСИ АМИДАЛА</a>
                     </li>
-                    <li id="4">
+                    <li>
                         <a href="#Spas">ГОСПОДИН ФОРУМ</a>
                     </li>
-                    <li id="5">
+                    <li>
                         <a href="#Vasko">ВАСКО ХАРИЗАНИЯТ</a>
                     </li>
                 </ul>
@@ -127,12 +134,30 @@
         </div>
     </main>
     <footer>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias harum sunt tempore voluptate voluptates? Commodi corporis cum delectus dolores doloribus eveniet laudantium, minus quae quaerat voluptas? Accusantium aliquid quia soluta.</p>
+        <div id="div-footer">
+            <nav>
+                <ul>
+                    <li><h3>Информация</h3></li>
+                    <li><a href="../Academy/academy.html">Университетът</a></li>
+                    <li><a href="../Education/education.html">План</a></li>
+                    <li><a href="../Jedi-Masters/Jedy-Knights.html">Рицари-Джедаи</a></li>
+                    <li><a href="../AssistantUnion/AssistantUnion.html">Асистентски Съюз</a></li>
+                    <li><a href="../YodaNakov/YodaNakov.html">Наков</a></li>
+                </ul>
+                <ul>
+                    <li><h3>За създателите на сайта</h3></li>
+                    <li><a href="../Team-cherry/team-cherry.html">Отбор "Черешка"</a></li>
+                </ul>
+                <ul>
+                    <li><h3>StarWars University Mastering the Force</h3></li>
+                    <li><p>&copy; 2015 - Team Cherry. All Rights Reserved.</p></li>
+                    <li id="socials">
+                        <a href="#" id="fb"><img src="img"></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </footer>
 </div>
-
-
-    <script src="../JS/jquery-1.11.2.min.js"></script>
-    <script src="../JS/hideShow.js"></script>
 </body>
 </html>

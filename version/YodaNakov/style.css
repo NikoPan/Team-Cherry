@@ -3,7 +3,8 @@
 }
 #wrapper > main > section > img {
     float: left;
-    width: 40%;
+    width: 30%;
+    margin: 20px;
     border-radius: 20px;
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
 }

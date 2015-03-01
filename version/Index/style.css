@@ -1,3 +1,4 @@
+
 body {
     font-family: "Tahoma", "Open Sans", Arial, sans-serif;
     background-color: #234465;
@@ -36,6 +37,7 @@ body {
 }
 
 @media only screen and (max-width: 520px) {
+
     #main-logo {
         display: none;
     }
@@ -78,14 +80,13 @@ body {
     clear: both;
 }
 
-#wrapper > header > nav > ul > li {
+#wrapper > header > nav > ul > li{
     margin-left: 10px;
-
     font-family: 'Star wars outline', 'Tahoma', sans-serif;
     /*margin-left: 10px;*/
     font-size: 16px;
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
 }
 
 #wrapper > header > nav > ul > li:hover {
@@ -94,12 +95,12 @@ body {
     background-color: #0F1D2A;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 #wrapper > header > nav > ul > li > ul {
     display: none;
-    padding: 5px;
+    padding: 10px;
 
 }
 
@@ -113,13 +114,16 @@ body {
 }
 
 #wrapper > header > nav > ul > li:hover > ul > li {
-    padding: 2px;
+    padding: 10px;
+    margin-top: 5px;
 }
 
 #wrapper > header > nav > ul > li:hover > ul > li:hover {
     background-color: rgb(35, 76, 109);
     border-radius: 5px;
-    padding: 2px;
+    padding: 10px;
+    margin-top: 5px;
+
 }
 
 p, h2, h3, a, a:visited {
@@ -133,8 +137,13 @@ nav > ul > li > ul {
     margin-left: -5px;
 }
 
-nav > ul > li > ul > li {
-    width: 118px;
-    padding: 2px;
+
+nav>ul>li>ul a{
+    padding: 10px;
 
 }
+footer nav ul{
+display: inline-block;
+    margin-top: 0;
+}
+
