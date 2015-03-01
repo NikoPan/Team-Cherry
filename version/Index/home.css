@@ -1,0 +1,58 @@
+section{
+    margin: 10px 10px 10px;
+}
+#home-screen h2 {
+    max-width: 60%;
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    width: 400px;
+    line-height: 150%;
+    padding-top: 5%;
+    padding-left: 10px;
+}
+
+#home-screen p {
+    padding-top: 5%;
+    padding-left: 10px;
+    text-align: center;
+    display: inline-block;
+    width: 400px;
+    margin: 10px;
+    line-height: 200%;
+}
+
+#home-screen a {
+    margin: 10px;
+    padding-top: 5%;
+    padding-left: 100px;
+}
+
+#home-screen img {
+    margin: 30px;
+    float: right;
+}
+
+#home-screen button {
+    padding: 10px 20px 10px 20px;
+    width: 150px;
+    text-align: center;
+    margin: 60px 25px;
+
+}
+
+
+#home-screen button:hover {
+
+}
+
+#wrapper main {
+    /*border-radius: 10px;*/
+    /*background-repeat: no-repeat;*/
+    /*box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;*/
+    /*background-color: rgba( 35, 68, 101, 0.5 );*/
+    /*width: 99%;*/
+    height: 530px;
+    /*margin: 10px*/
+    background-image: url("../Resources/main-background-cut.png");
+}
