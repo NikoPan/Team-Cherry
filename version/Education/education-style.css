@@ -2,6 +2,8 @@
     padding: 1%;
 }
 #education > aside {
+    background-color: rgba(35, 68, 101, 0.5);
+
     position: fixed;
     float: left;
     width: 140px;
@@ -34,12 +36,15 @@
     zoom: 1;
 }
  div section img {
+
+     margin-top: 20px;
     float: left;
     border-radius: 20px;
      width: inherit;
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
 }
   div section article {
+      background-color: rgba(35, 68, 101, 0.5);
       margin: 20px;
     float: right;
     width: 70%;

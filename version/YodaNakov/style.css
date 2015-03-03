@@ -3,14 +3,24 @@
 }
 #wrapper > main > section > img {
     float: left;
-    width: 30%;
+    width: 300px;
     margin: 20px;
     border-radius: 20px;
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
 }
+article h3{
+    font-weight: bold;
+    line-height: 200%;
+}
 #wrapper > main > section > article {
+    padding: 20px;
     float: right;
     width: 55%;
+    min-width: 300px;
+    margin: 20px;
+    background-color: rgba(35, 68, 101, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
 }
 #wrapper > main > section::after {
     display: block;
