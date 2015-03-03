@@ -13,40 +13,27 @@ body {
     padding: 10px 0;
 }
 
-#wrapper > header {
-    border-radius: 10px;
-    box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
-    background-color: rgba(35, 68, 101, 0.5);
-    margin: 0 auto;
-    width: 97%;
-}
+    #wrapper > header {
+        border-radius: 10px;
+        box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
+        background-color: rgba(35, 68, 101, 0.5);
+        margin: 0 auto;
+        width: 97%;
+    }
 
-#wrapper > main {
-    border-radius: 10px;
-    background-repeat: no-repeat;
-    box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
-    /*background-color: rgba( 35, 68, 101, 0.5 );*/
-    width: 97%;
-    margin: 10px;
-}
+    #wrapper > main {
+        border-radius: 10px;
+        background-repeat: no-repeat;
+        box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
+        /*background-color: rgba( 35, 68, 101, 0.5 );*/
+        width: 97%;
+        margin: 10px;
+    }
 
 /******Edit******/
 
 #small-logo {
     display: none;
-}
-
-@media only screen and (max-width: 520px) {
-
-    #main-logo {
-        display: none;
-    }
-
-    #small-logo {
-        display: block;
-        margin: 0;
-    }
-
 }
 
 #wrapper > footer {
@@ -62,10 +49,10 @@ body {
     float: left;
 }
 
-#wrapper > header > div > img {
-    margin: 3px 10px;
-    width: 97%;
-}
+    #wrapper > header > div > img {
+        margin: 3px 10px;
+        width: 97%;
+    }
 
 #wrapper > header > nav {
     width: 67%;
@@ -80,7 +67,7 @@ body {
     clear: both;
 }
 
-#wrapper > header > nav > ul > li{
+#wrapper > header > nav > ul > li {
     margin-left: 10px;
     font-family: 'Star wars outline', 'Tahoma', sans-serif;
     /*margin-left: 10px;*/
@@ -89,42 +76,40 @@ body {
     padding: 10px;
 }
 
-#wrapper > header > nav > ul > li:hover {
-    /*transition: 1s;*/
-    z-index: 1;
-    background-color: #0F1D2A;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    padding: 10px;
-}
+    #wrapper > header > nav > ul > li:hover {
+        /*transition: 1s;*/
+        z-index: 1;
+        background-color: #0F1D2A;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        padding: 10px;
+    }
 
-#wrapper > header > nav > ul > li > ul {
-    display: none;
-    padding: 10px;
+    #wrapper > header > nav > ul > li > ul {
+        display: none;
+        padding: 10px;
+    }
 
-}
+    #wrapper > header > nav > ul > li:hover > ul {
+        display: block;
+        background-color: #0F1D2A;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 5px;
+    }
 
-#wrapper > header > nav > ul > li:hover > ul {
-    display: block;
-    background-color: #0F1D2A;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 5px;
-}
+        #wrapper > header > nav > ul > li:hover > ul > li {
+            padding: 10px;
+            margin-top: 5px;
+        }
 
-#wrapper > header > nav > ul > li:hover > ul > li {
-    padding: 10px;
-    margin-top: 5px;
-}
-
-#wrapper > header > nav > ul > li:hover > ul > li:hover {
-    background-color: rgb(35, 76, 109);
-    border-radius: 5px;
-    padding: 10px;
-    margin-top: 5px;
-
-}
+            #wrapper > header > nav > ul > li:hover > ul > li:hover {
+                background-color: rgb(35, 76, 109);
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 5px;
+            }
 
 p, h2, h3, a, a:visited {
     text-decoration: none;
@@ -138,12 +123,80 @@ nav > ul > li > ul {
 }
 
 
-nav>ul>li>ul a{
-    padding: 10px;
+    nav > ul > li > ul a {
+        padding: 10px;
+    }
 
-}
-footer nav ul{
-display: inline-block;
+footer nav ul {
+    display: inline-block;
     margin-top: 0;
+}
+
+@media only screen and (max-width: 860px) {
+
+    #main-logo {
+        display: none;
+    }
+
+    #small-logo {
+        display: block;
+        margin: 0;
+    }
+
+    #wrapper > header > div {
+        width: 10%;
+        float: left;
+        padding: 5px;
+    }
+
+    #wrapper > header > nav {
+        width: 85%;
+        float: right;
+        margin-top: 37px;
+    }
+
+        #wrapper > header > nav > ul > li {
+            margin-right: 2%;
+        }
+}
+
+@media only screen and (max-width: 768px) {
+    #main-logo {
+        display: block;
+    }
+
+    #small-logo {
+        display: none;
+    }
+
+    #wrapper > header > div {
+        display: inline-block;
+        width: auto;
+        padding-left: 30%;
+    }
+
+        #wrapper > header > div > a {
+            width: auto;
+        }
+
+    #wrapper > header > nav {
+        width: 97%;
+        margin-top: 20px;
+    }
+
+        #wrapper > header > nav > ul > li {
+            margin-right: 0;
+        }
+}
+
+@media only screen and (max-width: 640px) {
+    #wrapper > header > div {
+        padding-left: 20%;
+    }
+
+    #wrapper > header > nav > ul > li {
+        display: block;
+        text-align: center;
+    }
 }
 
