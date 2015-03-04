@@ -161,6 +161,7 @@ footer nav ul {
         #wrapper > header > nav > ul > li {
             margin-right: 2%;
         }
+
 }
 
 @media only screen and (max-width: 768px) {
@@ -201,5 +202,10 @@ footer nav ul {
         display: block;
         text-align: center;
     }
+    
+        #wrapper>header>nav>ul>li:hover ul{
+            position:relative;
+        }
+
 }
 

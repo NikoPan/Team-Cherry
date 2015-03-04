@@ -68,3 +68,14 @@ article h3{
     line-height: 200%;
 font-weight: bold;
 }
+
+@media only screen and (max-width: 640px) {
+    
+        #jedy-knight>aside{
+            display:none;
+        }
+        #jedy-knight > div {
+            width:97%;
+            float:left;
+        }
+}
