@@ -23,3 +23,8 @@ article p{
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
 }
 
+@media only screen and (max-width: 768px) {
+    #jedy-knight > div > section > article > img {
+        width: 90%;
+    }
+}

@@ -79,3 +79,19 @@ article h3{
     padding-bottom: 10px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 768px) {
+    #education>aside{
+        display:none;
+    } #education>div{
+          width:100%;
+          float:none;
+          margin:0;
+      }
+    #education>div>section{
+        width:97%;
+    }
+    #education>div>section>article{
+        width:90%;
+    }
+}
