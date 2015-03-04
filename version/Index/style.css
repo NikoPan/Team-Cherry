@@ -21,7 +21,6 @@ body {
     }
 
     #wrapper > main {
-
         border-radius: 10px;
         background-repeat: no-repeat;
         box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
@@ -29,9 +28,10 @@ body {
         width: 97%;
         margin: 10px auto;
     }
-    main div{
-        padding: 10px;
-    }
+
+main div {
+    padding: 10px;
+}
 
 /******Edit******/
 
@@ -70,54 +70,59 @@ body {
     clear: both;
 }
 
-#wrapper > header > nav > ul > li {
-    margin-left: 5px;
-    font-family: 'Star wars outline', 'Tahoma', sans-serif;
-    /*margin-left: 10px;*/
-    font-size: 16px;
-    display: inline-block;
-    padding: 10px;
+#wrapper > header > nav > ul {
+    text-align: center;
 }
 
-    #wrapper > header > nav > ul > li:hover {
-        /*transition: 1s;*/
-        z-index: 1;
-        background-color: #0F1D2A;
-        border-top-right-radius: 10px;
-        border-top-left-radius: 10px;
+    #wrapper > header > nav > ul > li {
+        margin-left: 5px;
+        font-family: 'Star wars outline', 'Tahoma', sans-serif;
+        /*margin-left: 10px;*/
+        font-size: 16px;
+        display: inline-block;
         padding: 10px;
     }
 
-    #wrapper > header > nav > ul > li > ul {
-        display: none;
-        padding: 10px;
-    }
-
-    #wrapper > header > nav > ul > li:hover > ul {
-        display: block;
-        background-color: #0F1D2A;
-        border-bottom-left-radius: 10px;
-        border-bottom-right-radius: 10px;
-        border-top-right-radius: 10px;
-        padding: 5px;
-    }
-
-        #wrapper > header > nav > ul > li:hover > ul > li {
+        #wrapper > header > nav > ul > li:hover {
+            /*transition: 1s;*/
+            z-index: 1;
+            background-color: #0F1D2A;
+            border-top-right-radius: 10px;
+            border-top-left-radius: 10px;
             padding: 10px;
-            margin-top: 5px;
-            border-bottom:1px solid #48A0DB; /*additional design menu*/
-        }
-          #wrapper > header > nav > ul > li:hover > ul > li:last-child {
-            border-bottom:none; /*additional design menu*/
         }
 
+        #wrapper > header > nav > ul > li > ul {
+            display: none;
+            padding: 10px;
+        }
 
-            #wrapper > header > nav > ul > li:hover > ul > li:hover {
-                background-color: rgb(35, 76, 109);
-                border-radius: 5px;
+        #wrapper > header > nav > ul > li:hover > ul {
+            display: block;
+            background-color: #0F1D2A;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-top-right-radius: 10px;
+            padding: 5px;
+        }
+
+            #wrapper > header > nav > ul > li:hover > ul > li {
                 padding: 10px;
                 margin-top: 5px;
+                border-bottom: 1px solid #48A0DB; /*additional design menu*/
             }
+
+                #wrapper > header > nav > ul > li:hover > ul > li:last-child {
+                    border-bottom: none; /*additional design menu*/
+                }
+
+
+                #wrapper > header > nav > ul > li:hover > ul > li:hover {
+                    background-color: rgb(35, 76, 109);
+                    border-radius: 5px;
+                    padding: 10px;
+                    margin-top: 5px;
+                }
 
 p, h2, h3, a, a:visited {
     text-decoration: none;
@@ -166,7 +171,6 @@ footer nav ul {
         #wrapper > header > nav > ul > li {
             margin-right: 2%;
         }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -207,10 +211,14 @@ footer nav ul {
         display: block;
         text-align: center;
     }
-    
-        #wrapper>header>nav>ul>li:hover ul{
-            position:relative;
-        }
 
+        #wrapper > header > nav > ul > li:hover ul {
+            position: relative;
+        }
 }
 
+@media only screen and (max-width: 380px) {
+    #wrapper > header > div {
+        padding-left: 7%;
+    }
+}
