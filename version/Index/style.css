@@ -1,16 +1,14 @@
 
 body {
     font-family: "Tahoma", "Open Sans", Arial, sans-serif;
-    background-color: #234465;
+    background-color: #000000;
 }
 
 #wrapper {
-    background: url('../Resources/index-background-opacity.jpg') no-repeat fixed;
-    background-size: 97%;
+    background-image: url("../Resources/beautiful-blue-stars-fill.jpg");
+    /*background-color: rgba(0, 0, 0, 0.3);*/
     margin: 0 auto;
     max-width: 1024px;
-    height: 576px;
-    /*height: auto;*/
     padding: 10px 0;
 }
 
@@ -23,12 +21,13 @@ body {
     }
 
     #wrapper > main {
+
         border-radius: 10px;
         background-repeat: no-repeat;
         box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
         /*background-color: rgba( 35, 68, 101, 0.5 );*/
         width: 97%;
-        margin: 10px;
+        margin: 10px auto;
     }
     main div{
         padding: 10px;
