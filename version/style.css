@@ -5,7 +5,7 @@ body {
 }
 
 #wrapper {
-    background-image: url("../Resources/beautiful-blue-stars-fill.jpg");
+    background-image: url("Resources/beautiful-blue-stars-fill.jpg");
     /*background-color: rgba(0, 0, 0, 0.3);*/
     margin: 0 auto;
     max-width: 1024px;
@@ -39,15 +39,8 @@ main div {
     display: none;
 }
 
-#wrapper > footer {
-    border-radius: 10px;
-    box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
-    background-color: rgba(35, 68, 101, 0.5);
-    margin: 0 auto;
-    width: 97%;
-}
-
 #wrapper > header > div {
+    margin: 10px;
     width: 30%;
     float: left;
 }
@@ -145,6 +138,49 @@ footer nav ul {
     margin-top: 0;
 }
 
+
+#wrapper > footer {
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
+    background-color: rgba(35, 68, 101, 0.5);
+    margin: 0 auto;
+    width: 97%;
+}
+
+footer {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#div-footer {
+    width: 100%;
+    height: inherit;
+    min-height: 200px;
+}
+
+footer nav ul {
+    padding-left: 7%;
+    padding-top: 10px;
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+footer h3 {
+    font-weight: bold;
+    line-height: 200%;
+}
+
+footer li {
+
+    line-height: 150%;
+
+}
+
+
 @media only screen and (max-width: 860px) {
 
     #main-logo {
@@ -205,6 +241,10 @@ footer nav ul {
 @media only screen and (max-width: 640px) {
     #wrapper > header > div {
         padding-left: 20%;
+    }
+
+    #home-screen img{
+        display: none;
     }
 
     #wrapper > header > nav > ul > li {
