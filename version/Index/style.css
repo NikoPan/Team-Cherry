@@ -9,7 +9,8 @@ body {
     background-size: 97%;
     margin: 0 auto;
     max-width: 1024px;
-    height: auto;
+    height: 576px;
+    /*height: auto;*/
     padding: 10px 0;
 }
 
@@ -28,6 +29,9 @@ body {
         /*background-color: rgba( 35, 68, 101, 0.5 );*/
         width: 97%;
         margin: 10px;
+    }
+    main div{
+        padding: 10px;
     }
 
 /******Edit******/

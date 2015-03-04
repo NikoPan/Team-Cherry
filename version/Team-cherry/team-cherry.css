@@ -1,0 +1,27 @@
+article > h2 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+article p {
+    margin: 10px auto;
+    padding: 10px;
+    line-height: 150%;
+    width: 80%;
+    height: auto;
+    background-color: rgba(35, 68, 101, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
+}
+
+.link {
+    text-decoration: underline;
+}
+
+article img {
+    border-radius: 20px;
+    display: block;
+    margin: 10px auto;
+}

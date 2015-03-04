@@ -18,10 +18,4 @@ main > div {
     border-radius: 15px;
     box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
 }
-.link {
-    color: #ffffff;
-    border-radius: 5px;
-    box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
-    background-color: rgba(35, 68, 101, 0.5);
 
-}

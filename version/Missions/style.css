@@ -1,0 +1,29 @@
+
+article h3{
+    line-height: 200%;
+    text-align: center;
+    font-weight: bold;
+}
+article p{
+    margin-bottom: 20px;
+}
+section> p{
+    text-align: center;
+}
+ main div section article {
+    padding: 20px;
+    width: 55%;
+     height: auto;
+    min-width: 300px;
+    margin: 10px auto;
+    background-color: rgba(35, 68, 101, 0.5);
+    border-radius: 20px;
+    box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
+}
+
+iframe{
+    width: 100%;
+    height: 315px;
+    max-width: 560px;
+    max-height: 315px;
+}

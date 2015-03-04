@@ -3,11 +3,12 @@
 }
 #jedy-knight > aside {
     float: left;
-    width: 20%;
+    width: 18%;
     border-radius: 20px;
     margin: 10px 10px;
     padding: 10px;
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
+    background-color: rgba(35, 68, 101, 0.5);
 }
 #jedy-knight > aside li {
     line-height: 30px;
@@ -22,7 +23,7 @@
 }
 #jedy-knight > div {
     float: right;
-    width: 75%;
+    width: 73%;
 }
 #jedy-knight::after {
     display: block;
@@ -40,6 +41,7 @@
     float: right;
     width: 65%;
     border-radius: 20px;
+    background-color: rgba(35, 68, 101, 0.5);
     box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;
 }
 #jedy-knight > div  section > article {
@@ -62,7 +64,7 @@
 article {
     padding: 10px;
 }
-main div {
-
-
+article h3{
+    line-height: 200%;
+font-weight: bold;
 }
