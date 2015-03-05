@@ -3,7 +3,6 @@ body {
     font-family: "Tahoma", "Open Sans", Arial, sans-serif;
     background-color: #000000;
 }
-
 #wrapper {
     background-image: url("Resources/beautiful-blue-stars-fill.jpg");
     /*background-color: rgba(0, 0, 0, 0.3);*/
@@ -257,8 +256,10 @@ footer li {
         }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 360px) {
     #wrapper > header > div {
         padding-left: 7%;
     }
+
+
 }
