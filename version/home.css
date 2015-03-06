@@ -47,13 +47,13 @@ section {
 
 .apply:hover {
     background-color: rgba(255, 255, 255, 1);
-    cursor: url(../Resources/jedi-sword.png), pointer;
+    cursor: url(Resources/jedi-sword.png), pointer;
 
 }
 
 .apply:active {
     position: relative;
-    cursor: url(../Resources/jedi-sword.png), pointer;
+    cursor: url(Resources/jedi-sword.png), pointer;
     top: 1px;
 
 }
@@ -77,12 +77,6 @@ body, a:hover {
 }
 
 #wrapper main {
-    /*border-radius: 10px;*/
-    /*background-repeat: no-repeat;*/
-    /*box-shadow: 0 0 1px 1px rgba( 35, 68, 101, 0.5 ), 0 0 1px 2px #748593;*/
-    /*background-color: rgba( 35, 68, 101, 0.5 );*/
-    /*width: 99%;*/
     height: 530px;
-    /*margin: 10px*/
-    background-image: url("../Resources/main-background-cut.png");
+    background-image: url("Resources/main-background-cut.png");
 }

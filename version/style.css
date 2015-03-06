@@ -5,7 +5,6 @@ body {
 }
 #wrapper {
     background-image: url("Resources/beautiful-blue-stars-fill.jpg");
-    /*background-color: rgba(0, 0, 0, 0.3);*/
     margin: 0 auto;
     max-width: 1024px;
     padding: 10px 0;
@@ -23,7 +22,6 @@ body {
         border-radius: 10px;
         background-repeat: no-repeat;
         box-shadow: 0 0 1px 1px rgba(35, 68, 101, 0.5), 0 0 1px 2px #748593;
-        /*background-color: rgba( 35, 68, 101, 0.5 );*/
         width: 97%;
         margin: 10px auto;
     }
@@ -32,7 +30,6 @@ main div {
     padding: 10px;
 }
 
-/******Edit******/
 
 #small-logo {
     display: none;
@@ -69,14 +66,12 @@ main div {
     #wrapper > header > nav > ul > li {
         margin-left: 5px;
         font-family: 'Star wars outline', 'Tahoma', sans-serif;
-        /*margin-left: 10px;*/
         font-size: 16px;
         display: inline-block;
         padding: 10px;
     }
 
         #wrapper > header > nav > ul > li:hover {
-            /*transition: 1s;*/
             z-index: 1;
             background-color: #0F1D2A;
             border-top-right-radius: 10px;
@@ -136,7 +131,9 @@ footer nav ul {
     display: inline-block;
     margin-top: 0;
 }
-
+footer ul li img{
+    margin: 5px;
+}
 
 #wrapper > footer {
     border-radius: 10px;
@@ -167,6 +164,7 @@ footer nav ul {
     margin-top: 20px;
     list-style-type: none;
 }
+
 
 footer h3 {
     font-weight: bold;
